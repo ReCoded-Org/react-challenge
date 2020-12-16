@@ -63,7 +63,6 @@ const Main = () => {
         <div id="dataDisplay"></div>
         <div class="awesomeDiv">
           <button id="awesomeBtn">I'm Awesome</button>
-          {/*TODO */}
           {/*  When clicking the "I'm Awesome" button, display the content of '#awesome' div. When clicking it again, hide the content of '#awesome' div. */}
           <div id="awesome">
             <p>
