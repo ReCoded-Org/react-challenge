@@ -3,8 +3,11 @@ No. of errors in HTML & CSS: 10
 A web developer was working on a simple website for Re:Coded bootcamps
 
 This simple web page was designed to look like this before the JS part applied:
+![](src/images/codingChallenge1.png)
 And like this after JS part applied:
+![](src/images/codeingChallenge2.png)
 A gif showing how the buttons and hover effect work:
+![](src/images/codingChallenge.gif)
 Here are the images links:
 
     https://drive.google.com/open?id=1_YRh_FeX_owNopgxiz3A2kxWA4YnLHd6
