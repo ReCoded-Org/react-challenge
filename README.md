@@ -58,5 +58,6 @@ Your responsibility is:
     You might need to add more HTML elements and/or CSS rules.
 
     You are required to add as much Javascript code as you can.
+##note please check the deadline any commits after that will not be accepted!
 
 
