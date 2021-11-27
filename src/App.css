@@ -82,7 +82,6 @@ infoBtn,
 #awesomeBtn {
   background-color: #dda65f;
   /* add border color to match the background color */
-  border-color: #dda65f;
   color: white;
   margin: 0 auto;
   display: inline-block;
