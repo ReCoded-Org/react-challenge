@@ -5,28 +5,28 @@ const Footer = () => {
     <footer>
       <div>
         {/*Add the functionality to open the link in a new tab */}
-        <a href="https://www.facebook.com/recodedofficial">
+        <a href="https://www.facebook.com/recodedofficial" target="_blank" rel="noopener noreferrer">
           <img
             src="https://drive.google.com/uc?id=1-yaPy5DZhbYsLxUP8YWjvlpIZdbzDXxl"
             alt=""
             class="socialIcon"
           />
         </a>
-        <a href="https://www.instagram.com/recodedofficial/">
+        <a href="https://www.instagram.com/recodedofficial/" target="_blank" rel="noopener noreferrer">
           <img
             src="https://drive.google.com/uc?id=18b8F06ADRb6oGVuWosRYnPPOImNt6iCI"
             alt=""
             class="socialIcon"
           />
         </a>
-        <a href="https://twitter.com/recodedofficial">
+        <a href="https://twitter.com/recodedofficial" target="_blank" rel="noopener noreferrer">
           <img
             src="https://drive.google.com/uc?id=1vVXb5gSBxgwy1idaoPA6rDhc9leviMjx"
             alt=""
             class="socialIcon"
           />
         </a>
-        <a href="https://www.linkedin.com/company/re-coded/">
+        <a href="https://www.linkedin.com/company/re-coded/" target="_blank" rel="noopener noreferrer">
           <img
             src="https://drive.google.com/uc?id=1Rzvd49x5LKeb8yVEGgGfuNBKqN9LXpWE"
             alt=""
@@ -43,4 +43,4 @@ const Footer = () => {
   );
 };
 
-export Footer;
+export default Footer;

@@ -5,6 +5,7 @@ const Header = () => {
     <header>
       {/* What is alt attribute used for? */}
       {/* You can write here to answer a question */}
+      {/* Provide alternative text to show for screen readers, or when the image fails to load */}
       <img
         src="https://drive.google.com/uc?id=1ml1cDYnVse0DrPlzkG6tOuQOmDfX0_8z"
         alt="Re:Coded logo"
@@ -17,7 +18,7 @@ const Header = () => {
         developers and tech entrepreneurs
       </p>
     </header>
-    <br />
+    // <br />
   );
 };
 

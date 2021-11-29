@@ -1,8 +1,13 @@
 /* List three ways to select html elements in css */
-/* Type your answer here  */
+/* Using ID
+   element type
+   classes  */
 
 /* List three ways to style html elements */
-/* Type your answer here  */
+/* Inline 
+  Style tag in header
+  Link an outside style file.
+*/
 
 body {
   background-color: #eee;
@@ -11,13 +16,14 @@ body {
 }
 
 header {
-  background url('https://drive.google.com/uc?id=1ADdMAd8sSM1GxabjRUpJaqliyYQMxixu');
+  background-image: url('https://drive.google.com/uc?id=1ADdMAd8sSM1GxabjRUpJaqliyYQMxixu');
   background-size: cover;
   background-position: center;
   color: #ccc;
   display: flex;
   /* What does 'display: flex' do?*/
   /* Type your answer here */
+  /* Answers will vary ex: It sets how a flex item will gow and shrink to fit the space available in its container */
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -26,20 +32,23 @@ header {
 .logo {
   width: 100px;
   margin: 40px;
+  border-radius: 50%;
 }
 
 .title {
   margin: 40px;
   padding: 15px;
-  border: dotted #ccc 5px;
+  border: solid #ccc 5px;
   border-radius: 15px;
 }
 
 .italic {
   margin: 40px;
   font-size: 24px;
-  /* px, _____, and _____ are 3 measurements units in CSS */
-  fontstyle: italic;
+  /* px, ___pt__, and __em___ are 3 measurements units in CSS */
+  /* Answers may vary */
+  font-style: italic;
+  text-align: center;
 }
 
 .bootcamp {
@@ -55,9 +64,9 @@ li {
   margin: 10px;
 }
 
-#awesome {
+/* #awesome {
   display: none;
-}
+} */
 
 footer {
   display: flex;
@@ -77,7 +86,7 @@ footer {
   border-color: #3a7ddd;
 }
 
-infoBtn,
+#infoBtn,
 #searchBtn,
 #awesomeBtn {
   background-color: #dda65f;
@@ -93,7 +102,20 @@ infoBtn,
 
 /* Make the mouse curser look like a hand when you hover over the buttons (#infoBtn, #searchBtn, #awesomeBtn) and add backgound and border color of #3a7ddd*/
 
+[id$='Btn']:hover {
+  background-color: #3a7ddd !important;
+  border-color: #3a7ddd !important;
+  cursor: pointer;
+}
+
 .socialIcon {
-  width: 25p;
+  width: 25px;
   margin: 0 10px;
+}
+
+/* On solution to the css question Main.jsx line: 96 */
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-around;
 }
